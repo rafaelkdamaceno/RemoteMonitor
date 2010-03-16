@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RemoteMonitor.RemoteVar">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAgAAIAAAAAQAQAgAAAAAQCAAAgAQAAAAA=</HashCode>
+      <FileName>RemoteVar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RemoteMonitor" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RemoteMonitor.RemoteMonitor">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <AssociationLine Name="MonitorGateway" Type="RemoteMonitor.IMonitorGateway">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.131" Y="0.456" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAEIAAAAAAAAAAAAQAAAAAAQEAAAA=</HashCode>
+      <FileName>RemoteMonitor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MonitorGateway" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="RemoteMonitor.IMonitorGateway">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAQAAAAA=</HashCode>
+      <FileName>IMonitorGateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
